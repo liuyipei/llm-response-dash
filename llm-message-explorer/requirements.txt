@@ -1,0 +1,18 @@
+# Core Streamlit
+streamlit>=1.40.0
+
+# LLM Provider SDKs
+openai>=1.58.0                    # OpenAI, DeepSeek, Qwen, Moonshot, Fireworks, OpenRouter, LiteLLM
+anthropic>=0.40.0                 # Anthropic Claude
+google-generativeai>=0.8.3        # Google Gemini
+
+# HTTP & Async
+httpx>=0.28.0
+aiohttp>=3.11.0
+requests>=2.32.0
+
+# JSON & Data handling
+pydantic>=2.10.0
+
+# Optional: For extended functionality
+python-dotenv>=1.0.0             # Environment variable management
